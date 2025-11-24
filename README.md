@@ -33,19 +33,3 @@ A tabela `Descarga' contém os seguintes campos:
 
 ---
 
-## Componentes do CRUD
-
-### 1️⃣ Create
-
-- Criação da tabela:
-
-```sql
-CREATE TABLE Descarga (
-    id NUMBER PRIMARY KEY,
-    dt_venda DATE,
-    cd_cliente NUMBER(5),
-    ds_cliente VARCHAR2(70),
-    cd_produto NUMBER(6),
-    ds_produto VARCHAR2(70),
-    email VARCHAR2(100)
-);
