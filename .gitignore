@@ -1,22 +1,15 @@
-# -----------------------------
-# Oracle SQL / Banco de dados
-# -----------------------------
-# Arquivos de backup e dumps
 *.dmp
 *.bak
 *.log
 
-# Arquivos temporários de IDEs de banco
-*.sqd                 # SQL Developer
-*.dbmdl                # SQL Developer model files
+*.sqd                
+*.dbmdl                
 *.connections.xml
 *.dbeaver-data-sources.xml
-*.ora                 # Se houver arquivos de configuração local
-*.sql~                # Arquivos temporários de edição
+*.ora                
+*.sql~               
 
-# -----------------------------
-# Python (se houver scripts)
-# -----------------------------
+-
 __pycache__/
 *.py[cod]
 *$py.class
@@ -28,18 +21,12 @@ ENV/
 env.bak/
 venv.bak/
 
-# -----------------------------
-# IDEs / editores
-# -----------------------------
 .idea/
 *.iml
 *.sublime-project
 *.sublime-workspace
 *.vscode/
 
-# -----------------------------
-# Logs e caches gerais
-# -----------------------------
 *.log
 *.tmp
 *.swp
@@ -47,11 +34,7 @@ venv.bak/
 *.old
 *.orig
 
-# -----------------------------
-# Arquivos de build / distribuição
-# -----------------------------
 build/
 dist/
 *.egg
 *.egg-info/
-
